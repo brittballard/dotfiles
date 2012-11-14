@@ -1,3 +1,8 @@
+[user]
+  name = Britt Ballard
+  email = britt@thoughtbot.com
+
+# DO NOT EDIT BELOW THIS LINE
 [push]
   default = tracking
 [color]
