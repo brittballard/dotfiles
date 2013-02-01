@@ -79,7 +79,7 @@ if executable("ack")
 endif
 
 " Color scheme
-colorscheme github
+colorscheme distinguished
 highlight NonText guibg=#060606
 highlight Folded  guibg=#0A0A0A guifg=#9090D0
 
@@ -176,3 +176,5 @@ endfunction
 function! RunSpecs(command)
   execute ":w\|!clear && echo " . a:command . " && echo && " . a:command
 endfunction
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
