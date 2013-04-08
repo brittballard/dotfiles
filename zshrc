@@ -62,8 +62,13 @@ setopt AUTOCD
 setopt AUTOPUSHD PUSHDMINUS PUSHDSILENT PUSHDTOHOME
 setopt cdablevars
 
-# Try to correct command line spelling
-setopt CORRECT CORRECT_ALL
-
 # Enable extended globbing
 setopt EXTENDED_GLOB
+# The following lines were added by compinstall
+
+zstyle ':completion:*' completer _complete _ignored
+zstyle :compinstall filename '/Users/brittballard/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall

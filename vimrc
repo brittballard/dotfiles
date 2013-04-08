@@ -148,3 +148,5 @@ function! RunSpecs(command)
 endfunction
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+set cursorline
+set cursorcolumn
